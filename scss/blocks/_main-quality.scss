@@ -1,0 +1,32 @@
+.main__quality{
+    width: 1280px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #293039;
+    margin-bottom: 120px;
+}
+.quality{
+    margin-left: 85px;
+    color: #fff;
+}
+.quality__item{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.quality__text{
+    width: 570px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.main__quality--img{
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 100px;
+    bottom: 100px;
+}

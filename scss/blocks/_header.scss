@@ -1,0 +1,25 @@
+.header{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.nav{
+   display: flex;
+   align-items: center;
+}
+.nav__logo{
+    margin-right: auto;
+
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.list-item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #83888F;
+    &:hover{
+        color: #000;
+    }
+}
